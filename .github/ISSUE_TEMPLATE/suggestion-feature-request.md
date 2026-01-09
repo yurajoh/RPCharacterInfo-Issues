@@ -1,7 +1,7 @@
 ---
 name: Suggestion/Feature Request
 about: Suggestions go here! Let me know what you want to see in RPCI
-title: "[Suggestion]"
+title: "[Suggestion] "
 labels: ''
 assignees: yurajoh
 

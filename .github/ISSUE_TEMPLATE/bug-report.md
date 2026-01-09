@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Bugs go here! If somethings wrong, help me find out what I can do to fix it.
-title: "[Bug]"
+title: "[Bug] "
 labels: ''
 assignees: yurajoh
 
