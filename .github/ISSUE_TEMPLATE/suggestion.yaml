@@ -2,6 +2,7 @@ name: Suggestion
 description: Suggestions go here! Let me know what you want to see in RPCI
 title: "[Suggestion] "
 labels: ["suggestion"]
+assignees: yurajoh
 
 body:
   - type: textarea
