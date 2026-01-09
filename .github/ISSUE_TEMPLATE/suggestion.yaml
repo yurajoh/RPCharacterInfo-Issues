@@ -1,0 +1,22 @@
+name: Suggestion
+description: Suggestions go here! Let me know what you want to see in RPCI
+title: "[Suggestion] "
+labels: ["suggestion"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What do you want to be added to RPCI?
+      placeholder: I want the dialog to explode into confetti when I open it (I probably wont be able to do that one).
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If you have any screenshots or concepts of what you are suggesting, feel free to put them here.
+      placeholder: Drag and drop pictures here.
+    validations:
+      required: false
