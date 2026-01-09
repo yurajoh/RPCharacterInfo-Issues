@@ -1,0 +1,65 @@
+name: Bug Report
+description: Bugs go here! If somethings wrong, help me find out what I can do to fix it.
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod Version
+      description: What version of RP Character Info were you using?
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Game Version
+      description: What Game Version were you playing on?
+      placeholder: 1.21.5
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: Platform
+      description: Select your operating system.
+      options:
+        - Windows
+        - Mac
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clearly describe the bug you observed.
+      placeholder: Any information you can provide about the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: List any steps that you found caused the issue.
+      placeholder: 1. Open the dialog 2. Enter text into '...' 3. Click on the Save button
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add any screenshots that might help identify the issue, if applicable.
+      placeholder: Drag and drop pictures here.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description:  If there are any instances of errors or crashes logged in your games Logs folder, please paste them here. Full log files are too long for this field. If you want to send a full log, please upload them somewhere else (like Pastebin) and put the link here instead.
+      placeholder: Paste exceptions or error lines here.
+    validations:
+      required: false
